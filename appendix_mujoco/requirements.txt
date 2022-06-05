@@ -1,0 +1,6 @@
+'mujoco-py<2.2,>=2.1'
+torch==1.10.0
+torchdiffeq==0.2.3
+gym==0.23.1
+wandb
+ninja

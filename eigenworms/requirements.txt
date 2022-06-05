@@ -1,0 +1,9 @@
+numpy==1.18.4
+pandas==1.0.3
+pytorch-ignite==0.3.0
+scikit-learn==0.22.2.post1
+sktime==0.4.0
+torch==1.4.0
+torchdiffeq==0.1.0
+tqdm==4.46.0
+signatory==1.2.0.1.4.0
