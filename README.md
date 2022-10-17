@@ -2,7 +2,7 @@
 
 This is the official repository containing code for the paper:
 
-Neural Differential Equations for Learning to Program Neural Nets Through Continuous Learning Rules (link coming soon)
+[Neural Differential Equations for Learning to Program Neural Nets Through Continuous Learning Rules (NeurIPS 2022)](https://arxiv.org/abs/2206.01649)
 
 
 ## Contents
@@ -21,4 +21,13 @@ Separate license files can be found in each of these directories.
 * [Jürgen Schmidhuber's AI blog post on Fast Weight Programmers (March 26, 2021)](https://people.idsia.ch/~juergen/fast-weight-programmer-1991-transformer.html).
 
 ## BibTex
-Coming soon.
+```
+@inproceedings{irie2022neural,
+  title={Neural Differential Equations for Learning to Program Neural Nets Through Continuous Learning Rules},
+  author={Irie, Kazuki and Faccio, Francesco and Schmidhuber, J{\"u}rgen},
+  booktitle={Proc. Advances in Neural Information Processing Systems (NeurIPS)},
+  address = {New Orleans, {LA}, {USA}},
+  month = dec,
+  year={2022}
+}
+```
