@@ -54,9 +54,9 @@ python3 experiments/main.py \
   --hidden_channels 160 \
   --hidden_hidden_channels 1 \
   --num_hidden_layers 3 \
-  --num_heads 16 \
+  --num_heads 32 \
   --batch_size 1024 \
-  --base_lr 5e-05 \
+  --base_lr 4e-05 \
   --grad_scale 100 \
   --cde_use_v_laynorm
 ```
@@ -77,12 +77,13 @@ python3 experiments/main.py \
   --seed ${SEED} \
   --max_epochs 200 \
   --model_name delta_cde \
-  --hidden_channels 160 \
+  --hidden_channels 80 \
   --hidden_hidden_channels 1 \
   --num_hidden_layers 3 \
-  --num_heads 32 \
+  --num_heads 16 \
   --trafo_ff_dim 64 \
   --batch_size 1024 \
-  --base_lr 1e-05 \
+  --base_lr 3e-05 \
+  --delta_ode_post_tahn \
   --grad_scale 100
 ```
